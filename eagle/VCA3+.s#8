@@ -15090,7 +15090,7 @@ NS Package M08A</description>
 <part name="R3" library="rcl" deviceset="R-US_" device="0207/10" value="330R"/>
 <part name="R12" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="R15" library="rcl" deviceset="R-US_" device="0207/10" value="1M"/>
-<part name="DEC" library="pot" deviceset="3RP/1610N" device="" value="1M log"/>
+<part name="GAIN" library="pot" deviceset="3RP/1610N" device="" value="1M log"/>
 <part name="Q1" library="transistor-pnp" deviceset="2N3906" device=""/>
 <part name="C4" library="rcl" deviceset="C-US" device="050-024X044" value="100n"/>
 <part name="C5" library="rcl" deviceset="C-US" device="050-024X044" value="100n"/>
@@ -15167,7 +15167,7 @@ NS Package M08A</description>
 <instance part="R3" gate="G$1" x="190.5" y="86.36" rot="R180"/>
 <instance part="R12" gate="G$1" x="99.06" y="20.32" rot="R180"/>
 <instance part="R15" gate="G$1" x="147.32" y="53.34" rot="R180"/>
-<instance part="DEC" gate="G$1" x="7.62" y="40.64"/>
+<instance part="GAIN" gate="G$1" x="7.62" y="40.64"/>
 <instance part="Q1" gate="G$1" x="111.76" y="17.78" rot="R90"/>
 <instance part="C4" gate="G$1" x="203.2" y="20.32"/>
 <instance part="C5" gate="G$1" x="203.2" y="7.62"/>
@@ -15257,7 +15257,7 @@ NS Package M08A</description>
 <wire x1="203.2" y1="25.4" x2="195.58" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="DEC" gate="G$1" pin="E"/>
+<pinref part="GAIN" gate="G$1" pin="E"/>
 <pinref part="P+2" gate="1" pin="+12V"/>
 <wire x1="7.62" y1="48.26" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
 </segment>
@@ -15362,7 +15362,7 @@ NS Package M08A</description>
 <wire x1="162.56" y1="68.58" x2="162.56" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="DEC" gate="G$1" pin="A"/>
+<pinref part="GAIN" gate="G$1" pin="A"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="7.62" y1="33.02" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
 </segment>
@@ -15525,7 +15525,7 @@ NS Package M08A</description>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="DEC" gate="G$1" pin="S"/>
+<pinref part="GAIN" gate="G$1" pin="S"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="40.64" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
 </segment>

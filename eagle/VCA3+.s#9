@@ -15117,7 +15117,7 @@ NS Package M08A</description>
 <part name="C8" library="rcl" deviceset="C-US" device="050-024X044" value="47P"/>
 <part name="R10" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="INIT" library="pot" deviceset="TRIM_US-" device="B64Y" value="100K"/>
+<part name="PRESET" library="pot" deviceset="TRIM_US-" device="B64Y" value="100K"/>
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
 <part name="P-2" library="supply1" deviceset="-12V" device=""/>
 <part name="R11" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
@@ -15196,7 +15196,7 @@ NS Package M08A</description>
 <instance part="C8" gate="G$1" x="45.72" y="40.64" rot="R90"/>
 <instance part="R10" gate="G$1" x="27.94" y="40.64" rot="R180"/>
 <instance part="GND9" gate="1" x="38.1" y="15.24"/>
-<instance part="INIT" gate="G$1" x="35.56" y="60.96" rot="R270"/>
+<instance part="PRESET" gate="G$1" x="35.56" y="60.96" rot="R270"/>
 <instance part="P+3" gate="1" x="48.26" y="63.5"/>
 <instance part="P-2" gate="1" x="20.32" y="58.42"/>
 <instance part="R11" gate="G$1" x="35.56" y="48.26" rot="R270"/>
@@ -15262,7 +15262,7 @@ NS Package M08A</description>
 <wire x1="7.62" y1="48.26" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="INIT" gate="G$1" pin="E"/>
+<pinref part="PRESET" gate="G$1" pin="E"/>
 <pinref part="P+3" gate="1" pin="+12V"/>
 <wire x1="48.26" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -15292,7 +15292,7 @@ NS Package M08A</description>
 <wire x1="203.2" y1="0" x2="195.58" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="INIT" gate="G$1" pin="A"/>
+<pinref part="PRESET" gate="G$1" pin="A"/>
 <pinref part="P-2" gate="1" pin="-12V"/>
 <wire x1="20.32" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -15532,7 +15532,7 @@ NS Package M08A</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="INIT" gate="G$1" pin="S"/>
+<pinref part="PRESET" gate="G$1" pin="S"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="53.34" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
 </segment>

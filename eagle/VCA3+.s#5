@@ -15204,7 +15204,7 @@ NS Package M08A</description>
 <instance part="R14" gate="G$1" x="81.28" y="30.48" rot="R180"/>
 <instance part="C9" gate="G$1" x="81.28" y="38.1" rot="R90"/>
 <instance part="GND10" gate="1" x="73.66" y="12.7"/>
-<instance part="GND11" gate="1" x="111.76" y="12.7"/>
+<instance part="GND11" gate="1" x="111.76" y="2.54"/>
 <instance part="T2" gate="G1" x="127" y="12.7"/>
 <instance part="T3" gate="G1" x="137.16" y="12.7"/>
 <instance part="T4" gate="G1" x="149.86" y="12.7"/>
@@ -15384,6 +15384,7 @@ NS Package M08A</description>
 <segment>
 <pinref part="Q1" gate="G$1" pin="B"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="111.76" y1="5.08" x2="111.76" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
