@@ -15145,6 +15145,14 @@ NS Package M08A</description>
 <part name="P-4" library="supply1" deviceset="-12V" device=""/>
 <part name="P-5" library="supply1" deviceset="-12V" device=""/>
 <part name="P-6" library="supply1" deviceset="-12V" device=""/>
+<part name="C10" library="rcl" deviceset="C-US" device="050-024X044" value="100n"/>
+<part name="C11" library="rcl" deviceset="C-US" device="050-024X044" value="100n"/>
+<part name="C12" library="rcl" deviceset="C-US" device="050-024X044" value="100n"/>
+<part name="C13" library="rcl" deviceset="C-US" device="050-024X044" value="100n"/>
+<part name="P+6" library="supply1" deviceset="+12V" device=""/>
+<part name="P-7" library="supply1" deviceset="-12V" device=""/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15224,6 +15232,16 @@ NS Package M08A</description>
 <instance part="P-4" gate="1" x="152.4" y="2.54"/>
 <instance part="P-5" gate="1" x="139.7" y="2.54"/>
 <instance part="P-6" gate="1" x="129.54" y="2.54"/>
+<instance part="IC1" gate="P" x="185.42" y="50.8"/>
+<instance part="IC2" gate="P" x="190.5" y="50.8"/>
+<instance part="C10" gate="G$1" x="198.12" y="58.42"/>
+<instance part="C11" gate="G$1" x="177.8" y="58.42"/>
+<instance part="C12" gate="G$1" x="177.8" y="45.72"/>
+<instance part="C13" gate="G$1" x="198.12" y="45.72"/>
+<instance part="P+6" gate="1" x="187.96" y="68.58"/>
+<instance part="P-7" gate="1" x="187.96" y="33.02"/>
+<instance part="GND12" gate="1" x="213.36" y="45.72"/>
+<instance part="GND13" gate="1" x="170.18" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -15276,6 +15294,25 @@ NS Package M08A</description>
 <pinref part="P+5" gate="1" pin="+12V"/>
 <wire x1="157.48" y1="63.5" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="60.96" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="63.5" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="63.5" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="63.5" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="63.5" x2="198.12" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="63.5" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="P" pin="V+"/>
+<wire x1="190.5" y1="58.42" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
+<junction x="190.5" y="63.5"/>
+<pinref part="IC1" gate="P" pin="V+"/>
+<wire x1="185.42" y1="58.42" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
+<junction x="185.42" y="63.5"/>
+<pinref part="P+6" gate="1" pin="+12V"/>
+<wire x1="187.96" y1="66.04" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
+<junction x="187.96" y="63.5"/>
+</segment>
 </net>
 <net name="-12V" class="0">
 <segment>
@@ -15315,6 +15352,25 @@ NS Package M08A</description>
 <pinref part="T2" gate="G1" pin="E"/>
 <pinref part="P-6" gate="1" pin="-12V"/>
 <wire x1="129.54" y1="5.08" x2="129.54" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="40.64" x2="177.8" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="38.1" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="38.1" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="38.1" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="38.1" x2="198.12" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="38.1" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="P" pin="V-"/>
+<wire x1="190.5" y1="43.18" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
+<junction x="190.5" y="38.1"/>
+<pinref part="IC1" gate="P" pin="V-"/>
+<wire x1="185.42" y1="43.18" x2="185.42" y2="38.1" width="0.1524" layer="91"/>
+<junction x="185.42" y="38.1"/>
+<pinref part="P-7" gate="1" pin="-12V"/>
+<wire x1="187.96" y1="35.56" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
+<junction x="187.96" y="38.1"/>
 </segment>
 </net>
 <net name="GND" class="0">

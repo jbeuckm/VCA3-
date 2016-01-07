@@ -15087,7 +15087,7 @@ NS Package M08A</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R6" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="C7" library="rcl" deviceset="C-US" device="050-024X044" value="100n"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="0207/12" value="330R"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="0207/10" value="330R"/>
 <part name="R12" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
 <part name="R15" library="rcl" deviceset="R-US_" device="0207/10" value="1M"/>
 <part name="GAIN" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
