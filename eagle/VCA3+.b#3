@@ -153,10 +153,10 @@
 <wire x1="2.286" y1="-0.889" x2="-0.889" y2="2.54" width="1.6764" layer="46"/>
 <wire x1="-0.889" y1="2.54" x2="-0.635" y2="80.645" width="1.6764" layer="46"/>
 <wire x1="-0.635" y1="80.645" x2="64.262" y2="80.645" width="1.6764" layer="46"/>
-<circle x="4.064" y="7.874" radius="0.762" width="1.6764" layer="46"/>
-<circle x="61.214" y="6.604" radius="0.762" width="1.6764" layer="46"/>
-<circle x="2.286" y="77.47" radius="0.762" width="1.6764" layer="46"/>
-<circle x="61.468" y="77.47" radius="0.762" width="1.6764" layer="46"/>
+<circle x="2.286" y="77.47" radius="0.508" width="1.6764" layer="46"/>
+<circle x="60.706" y="77.47" radius="0.508" width="1.6764" layer="46"/>
+<circle x="61.976" y="6.35" radius="0.508" width="1.6764" layer="46"/>
+<circle x="3.556" y="6.35" radius="0.508" width="1.6764" layer="46"/>
 </plain>
 <libraries>
 <library name="erthenvar">
